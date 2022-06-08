@@ -1,0 +1,1007 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第六节 窗口函数 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../04/0.html" />
+    
+    
+    <link rel="prev" href="5.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    第一章 MySQL数据库的基本操作
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../01/1.html">
+            
+                <a href="../01/1.html">
+            
+                    
+                    第一节 MySQL数据库基本操作-DDL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../01/2.html">
+            
+                <a href="../01/2.html">
+            
+                    
+                    第二节 MySQL数据库基本操作-DML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../01/3.html">
+            
+                <a href="../01/3.html">
+            
+                    
+                    第三节 MySql约束
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../01/4.html">
+            
+                <a href="../01/4.html">
+            
+                    
+                    第四节 MySQL数据库基本操作-DQL-基本查询
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02/0.html">
+            
+                <a href="../02/0.html">
+            
+                    
+                    第二章 MySQL的多表操作
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02/1.html">
+            
+                <a href="../02/1.html">
+            
+                    
+                    第一节 多表关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02/2.html">
+            
+                <a href="../02/2.html">
+            
+                    
+                    第二节 多表操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="0.html">
+            
+                <a href="0.html">
+            
+                    
+                    第三章 MySQL的函数
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1.html">
+            
+                <a href="1.html">
+            
+                    
+                    第一节 聚合函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="2.html">
+            
+                <a href="2.html">
+            
+                    
+                    第二节 数学函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3.html">
+            
+                <a href="3.html">
+            
+                    
+                    第三节 字符串函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="4.html">
+            
+                <a href="4.html">
+            
+                    
+                    第四节 日期函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="5.html">
+            
+                <a href="5.html">
+            
+                    
+                    第五节 控制流函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="6.html">
+            
+                <a href="6.html">
+            
+                    
+                    第六节 窗口函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04/0.html">
+            
+                <a href="../04/0.html">
+            
+                    
+                    第四章 MySQL的视图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../04/1.html">
+            
+                <a href="../04/1.html">
+            
+                    
+                    第一节 视图的创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../04/2.html">
+            
+                <a href="../04/2.html">
+            
+                    
+                    第二节 修改视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../04/3.html">
+            
+                <a href="../04/3.html">
+            
+                    
+                    第三节 更新视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../04/4.html">
+            
+                <a href="../04/4.html">
+            
+                    
+                    第四节 重命名和删除视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05/0.html">
+            
+                <a href="../05/0.html">
+            
+                    
+                    第五章 MySQL的存储过程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../05/1.html">
+            
+                <a href="../05/1.html">
+            
+                    
+                    第一节 存储过程的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../05/2.html">
+            
+                <a href="../05/2.html">
+            
+                    
+                    第二节 变量定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../05/3.html">
+            
+                <a href="../05/3.html">
+            
+                    
+                    第三节 存储过程传参
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../05/4.html">
+            
+                <a href="../05/4.html">
+            
+                    
+                    第四节 流程控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../05/5.html">
+            
+                <a href="../05/5.html">
+            
+                    
+                    第五节 游标
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../05/6.html">
+            
+                <a href="../05/6.html">
+            
+                    
+                    第六节 异常处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../05/7.html">
+            
+                <a href="../05/7.html">
+            
+                    
+                    第七节 存储函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../06/0.html">
+            
+                <a href="../06/0.html">
+            
+                    
+                    第六章 MySQL的触发器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../06/1.html">
+            
+                <a href="../06/1.html">
+            
+                    
+                    第一节 创建触发器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../06/2.html">
+            
+                <a href="../06/2.html">
+            
+                    
+                    第二节 NEW与OLD
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../06/3.html">
+            
+                <a href="../06/3.html">
+            
+                    
+                    第三节 查看和删除触发器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../07/0.html">
+            
+                <a href="../07/0.html">
+            
+                    
+                    第七章 MySQL的索引
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../07/1.html">
+            
+                <a href="../07/1.html">
+            
+                    
+                    第一节 索引的分类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../07/2.html">
+            
+                <a href="../07/2.html">
+            
+                    
+                    第二节 单列索引的操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../07/3.html">
+            
+                <a href="../07/3.html">
+            
+                    
+                    第三节 组合索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../07/4.html">
+            
+                <a href="../07/4.html">
+            
+                    
+                    第四节 全文索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../07/5.html">
+            
+                <a href="../07/5.html">
+            
+                    
+                    第五节 空间索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../08/0.html">
+            
+                <a href="../08/0.html">
+            
+                    
+                    第八章 MySQL的存储引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../09/0.html">
+            
+                <a href="../09/0.html">
+            
+                    
+                    第九章 MySQL的事物
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../09/1.html">
+            
+                <a href="../09/1.html">
+            
+                    
+                    第一节 事物的操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../09/2.html">
+            
+                <a href="../09/2.html">
+            
+                    
+                    第二节 事物的隔离级别
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10/0.html">
+            
+                <a href="../10/0.html">
+            
+                    
+                    第十章 MySQL的锁机制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../10/1.html">
+            
+                <a href="../10/1.html">
+            
+                    
+                    第一节 MySQL锁的特点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../10/2.html">
+            
+                <a href="../10/2.html">
+            
+                    
+                    第二节 MyISAM表锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../10/3.html">
+            
+                <a href="../10/3.html">
+            
+                    
+                    第三节 InnoDB行锁
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >第六节 窗口函数</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>MySQL 8.0 &#x65B0;&#x589E;&#x7A97;&#x53E3;&#x51FD;&#x6570;,&#x7A97;&#x53E3;&#x51FD;&#x6570;&#x53C8;&#x88AB;&#x79F0;&#x4E3A;&#x5F00;&#x7A97;&#x51FD;&#x6570;&#xFF0C;&#x4E0E;Oracle &#x7A97;&#x53E3;&#x51FD;&#x6570;&#x7C7B;&#x4F3C;&#xFF0C;&#x5C5E;&#x4E8E;MySQL&#x7684;&#x4E00;&#x5927;&#x7279;&#x70B9;.</p>
+<p>&#x975E;&#x805A;&#x5408;&#x7A97;&#x53E3;&#x51FD;&#x6570;&#x662F;&#x76F8;&#x5BF9;&#x4E8E;&#x805A;&#x51FD;&#x6570;&#x6765;&#x8BF4;&#x7684;&#x3002;&#x805A;&#x5408;&#x51FD;&#x6570;&#x662F;&#x5BF9;&#x4E00;&#x7EC4;&#x6570;&#x636E;&#x8BA1;&#x7B97;&#x540E;&#x8FD4;&#x56DE;&#x5355;&#x4E2A;&#x503C;&#xFF08;&#x5373;&#x5206;&#x7EC4;&#xFF09;&#xFF0C;&#x975E;&#x805A;&#x5408;&#x51FD;&#x6570;&#x4E00;&#x6B21;&#x53EA;&#x4F1A;&#x5904;&#x7406;&#x4E00;&#x884C;&#x6570;&#x636E;&#x3002;&#x7A97;&#x53E3;&#x805A;&#x5408;&#x51FD;&#x6570;&#x5728;&#x884C;&#x8BB0;&#x5F55;&#x4E0A;&#x8BA1;&#x7B97;&#x67D0;&#x4E2A;&#x5B57;&#x6BB5;&#x7684;&#x7ED3;&#x679C;&#x65F6;&#xFF0C;&#x53EF;&#x5C06;&#x7A97;&#x53E3;&#x8303;&#x56F4;&#x5185;&#x7684;&#x6570;&#x636E;&#x8F93;&#x5165;&#x5230;&#x805A;&#x5408;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x5E76;&#x4E0D;&#x6539;&#x53D8;&#x884C;&#x6570;&#x3002;</p>
+<pre><code class="lang-my">window_function ( expr ) OVER ( 
+  PARTITION BY ... 
+  ORDER BY ... 
+  frame_clause 
+)
+</code></pre>
+<p>&#x5176;&#x4E2D;&#xFF0C;window_function &#x662F;&#x7A97;&#x53E3;&#x51FD;&#x6570;&#x7684;&#x540D;&#x79F0;&#xFF1B;expr &#x662F;&#x53C2;&#x6570;&#xFF0C;&#x6709;&#x4E9B;&#x51FD;&#x6570;&#x4E0D;&#x9700;&#x8981;&#x53C2;&#x6570;&#xFF1B;OVER&#x5B50;&#x53E5;&#x5305;&#x542B;&#x4E09;&#x4E2A;&#x9009;&#x9879;&#xFF1A;</p>
+<ul>
+<li>&#x5206;2&#x533A;&#xFF08;PARTITION BY&#xFF09;:PARTITION BY&#x9009;&#x9879;&#x7528;&#x4E8E;&#x5C06;&#x6570;&#x636E;&#x884C;&#x62C6;&#x5206;&#x6210;&#x591A;&#x4E2A;&#x5206;&#x533A;&#xFF08;&#x7EC4;&#xFF09;&#xFF0C;&#x5B83;&#x7684;&#x4F5C;&#x7528;&#x7C7B;&#x4F3C;&#x4E8E;GROUP BY&#x5206;&#x7EC4;&#x3002;&#x5982;&#x679C;&#x7701;&#x7565;&#x4E86; PARTITION BY&#xFF0C;&#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x7EC4;&#x8FDB;&#x884C;&#x8BA1;&#x7B97;</li>
+<li>&#x6392;&#x5E8F;&#xFF08;ORDER BY&#xFF09;:OVER &#x5B50;&#x53E5;&#x4E2D;&#x7684;ORDER BY&#x9009;&#x9879;&#x7528;&#x4E8E;&#x6307;&#x5B9A;&#x5206;&#x533A;&#x5185;&#x7684;&#x6392;&#x5E8F;&#x65B9;&#x5F0F;&#xFF0C;&#x4E0E; ORDER BY &#x5B50;&#x53E5;&#x7684;&#x4F5C;&#x7528;&#x7C7B;&#x4F3C;</li>
+<li>&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#xFF08;frame_clause&#xFF09;:frame_clause&#x9009;&#x9879;&#x7528;&#x4E8E;&#x5728;<strong>&#x5F53;&#x524D;&#x5206;&#x533A;</strong>&#x5185;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x8BA1;&#x7B97;&#x7A97;&#x53E3;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x4E0E;&#x5F53;&#x524D;&#x884C;&#x76F8;&#x5173;&#x7684;&#x6570;&#x636E;&#x5B50;&#x96C6;&#x3002;</li>
+</ul>
+<h3 id="61-&#x5E8F;&#x53F7;&#x51FD;&#x6570;">6.1 &#x5E8F;&#x53F7;&#x51FD;&#x6570;</h3>
+<p>&#x5E8F;&#x53F7;&#x51FD;&#x6570;&#x6709;&#x4E09;&#x4E2A;&#xFF1A;ROW_NUMBER()&#x3001;RANK()&#x3001;DENSE_RANK()&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x5B9E;&#x73B0;&#x5206;&#x7EC4;&#x6392;&#x5E8F;&#xFF0C;&#x5E76;&#x6DFB;&#x52A0;&#x5E8F;&#x53F7;&#x3002;</p>
+<pre><code class="lang-mysql">row_number()|rank()|dense_rank() over ( 
+  partition by ...         -- &#x6309;&#x7167;&#x5B57;&#x6BB5;&#x5206;&#x7EC4;
+  order by ...             -- &#x7EC4;&#x5185;&#x6392;&#x5E8F;
+)
+</code></pre>
+<p>&#x4F8B;&#x5982;</p>
+<pre><code class="lang-mysql">-- &#x5BF9;&#x6BCF;&#x4E2A;&#x90E8;&#x95E8;&#x7684;&#x5458;&#x5DE5;&#x6309;&#x7167;&#x85AA;&#x8D44;&#x6392;&#x5E8F;&#xFF0C;&#x5E76;&#x7ED9;&#x51FA;&#x6392;&#x540D; rank
+select 
+dname,
+ename,
+salary,
+rank() over(partition by dname order by salary desc) as rn 
+-- row_number() over(partition by dname order by salary desc) as rn 
+-- dense_rank() over(partition by dname order by salary desc) as rn 
+from employee;
+</code></pre>
+<h3 id="62-&#x5F00;&#x7A97;&#x805A;&#x5408;&#x51FD;&#x6570;">6.2 &#x5F00;&#x7A97;&#x805A;&#x5408;&#x51FD;&#x6570;</h3>
+<p>&#x5728;&#x7A97;&#x53E3;&#x4E2D;&#x6BCF;&#x6761;&#x8BB0;&#x5F55;&#x52A8;&#x6001;&#x5730;&#x5E94;&#x7528;&#x805A;&#x5408;&#x51FD;&#x6570;&#xFF08;SUM()&#x3001;AVG()&#x3001;MAX()&#x3001;MIN()&#x3001;COUNT()&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x52A8;&#x6001;&#x8BA1;&#x7B97;&#x5728;&#x6307;&#x5B9A;&#x7684;&#x7A97;&#x53E3;&#x5185;&#x7684;&#x5404;&#x79CD;&#x805A;&#x5408;&#x51FD;&#x6570;&#x503C;&#x3002;</p>
+<pre><code class="lang-mysql">select  
+ dname,
+ ename,
+ salary,
+ sum(salary) over(partition by dname order by hiredate rows between 3 preceding and current row) as c1 
+from employee;
+</code></pre>
+<h3 id="63-&#x5206;&#x5E03;&#x51FD;&#x6570;">6.3 &#x5206;&#x5E03;&#x51FD;&#x6570;</h3>
+<ul>
+<li>CUME_DIST</li>
+</ul>
+<p>&#x7528;&#x9014;&#xFF1A;&#x5206;&#x7EC4;&#x5185;&#x5C0F;&#x4E8E;&#x3001;&#x7B49;&#x4E8E;&#x5F53;&#x524D;rank&#x503C;&#x7684;&#x884C;&#x6570; / &#x5206;&#x7EC4;&#x5185;&#x603B;&#x884C;&#x6570;</p>
+<p>&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x67E5;&#x8BE2;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x5F53;&#x524D;&#x85AA;&#x8D44;&#xFF08;salary&#xFF09;&#x7684;&#x6BD4;&#x4F8B;</p>
+<pre><code class="lang-mysql">select  
+ dname,
+ ename,
+ salary,
+ cume_dist() over(order by salary) as rn1, -- &#x6CA1;&#x6709;partition&#x8BED;&#x53E5; &#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x4F4D;&#x4E8E;&#x4E00;&#x7EC4;
+ cume_dist() over(partition by dept order by salary) as rn2 
+from employee;
+</code></pre>
+<ul>
+<li>PERCENT_RANK</li>
+</ul>
+<p>&#x7528;&#x9014;&#xFF1A;&#x6BCF;&#x884C;&#x6309;&#x7167;&#x516C;&#x5F0F;(rank-1) / (rows-1)&#x8FDB;&#x884C;&#x8BA1;&#x7B97;&#x3002;&#x5176;&#x4E2D;&#xFF0C;rank&#x4E3A;RANK()&#x51FD;&#x6570;&#x4EA7;&#x751F;&#x7684;&#x5E8F;&#x53F7;&#xFF0C;rows&#x4E3A;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x7684;&#x8BB0;&#x5F55;&#x603B;&#x884C;&#x6570;</p>
+<pre><code class="lang-mysql">select 
+ dname,
+ ename,
+ salary,
+ rank() over(partition by dname order by salary desc ) as rn,
+ percent_rank() over(partition by dname order by salary desc ) as rn2
+from employee;
+</code></pre>
+<h3 id="64-&#x524D;&#x540E;&#x51FD;&#x6570;">6.4 &#x524D;&#x540E;&#x51FD;&#x6570;</h3>
+<p>&#x7528;&#x9014;&#xFF1A;&#x8FD4;&#x56DE;&#x4F4D;&#x4E8E;&#x5F53;&#x524D;&#x884C;&#x7684;&#x524D;n&#x884C;&#xFF08;LAG(expr,n)&#xFF09;&#x6216;&#x540E;n&#x884C;&#xFF08;LEAD(expr,n)&#xFF09;&#x7684;expr&#x7684;&#x503C;</p>
+<blockquote>
+<p>&#x53EF;&#x4EE5;&#x52A0;&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#x8868;&#x793A;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x524D;/&#x540E;n&#x884C;&#x5219;&#x7528;&#x9ED8;&#x8BA4;&#x503C;&#x4EE3;&#x66FF;&#xFF0C;&#x4E0D;&#x586B;&#x9ED8;&#x8BA4;null</p>
+</blockquote>
+<pre><code class="lang-mysql">-- lag&#x7684;&#x7528;&#x6CD5;
+select 
+ dname,
+ ename,
+ hiredate,
+ salary,
+ lag(hiredate,1,&apos;2000-01-01&apos;) over(partition by dname order by hiredate) as last_1_time,
+ lag(hiredate,2) over(partition by dname order by hiredate) as last_2_time 
+from employee;
+</code></pre>
+<h3 id="65-&#x5934;&#x5C3E;&#x51FD;&#x6570;">6.5 &#x5934;&#x5C3E;&#x51FD;&#x6570;</h3>
+<p>&#x7528;&#x9014;&#xFF1A;&#x8FD4;&#x56DE;&#x7B2C;&#x4E00;&#x4E2A;&#xFF08;FIRST_VALUE(expr)&#xFF09;&#x6216;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#xFF08;LAST_VALUE(expr)&#xFF09;expr&#x7684;&#x503C;</p>
+<pre><code class="lang-mysql">-- &#x6CE8;&#x610F;,  &#x5982;&#x679C;&#x4E0D;&#x6307;&#x5B9A;ORDER BY&#xFF0C;&#x5219;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#x6DF7;&#x4E71;&#xFF0C;&#x4F1A;&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#x7684;&#x7ED3;&#x679C;
+select
+  dname,
+  ename,
+  hiredate,
+  salary,
+  first_value(salary) over(partition by dname order by hiredate) as first,
+  last_value(salary) over(partition by dname order by  hiredate) as last 
+from  employee;
+</code></pre>
+<h3 id="66-&#x5176;&#x4ED6;&#x51FD;&#x6570;">6.6 &#x5176;&#x4ED6;&#x51FD;&#x6570;</h3>
+<ul>
+<li>NTH_VALUE(expr,n)</li>
+</ul>
+<p>&#x7528;&#x9014;&#xFF1A;&#x8FD4;&#x56DE;&#x7A97;&#x53E3;&#x4E2D;&#x7B2C;n&#x4E2A;expr&#x7684;&#x503C;&#x3002;expr&#x53EF;&#x4EE5;&#x662F;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x5217;&#x540D;</p>
+<pre><code class="lang-mysql">-- &#x67E5;&#x8BE2;&#x6BCF;&#x4E2A;&#x90E8;&#x95E8;&#x622A;&#x6B62;&#x76EE;&#x524D;&#x85AA;&#x8D44;&#x6392;&#x5728;&#x7B2C;&#x4E8C;&#x548C;&#x7B2C;&#x4E09;&#x7684;&#x5458;&#x5DE5;&#x4FE1;&#x606F;
+select 
+  dname,
+  ename,
+  hiredate,
+  salary,
+  nth_value(salary,2) over(partition by dname order by hiredate) as second_score,
+  nth_value(salary,3) over(partition by dname order by hiredate) as third_score
+from employee
+</code></pre>
+<ul>
+<li>NTILE(n)</li>
+</ul>
+<p>&#x7528;&#x9014;&#xFF1A;&#x5C06;&#x5206;&#x533A;&#x4E2D;&#x7684;&#x6709;&#x5E8F;&#x6570;&#x636E;&#x5206;&#x4E3A;n&#x4E2A;&#x7B49;&#x7EA7;&#xFF0C;&#x8BB0;&#x5F55;&#x7B49;&#x7EA7;&#x6570;</p>
+<pre><code class="lang-mysql">-- &#x6839;&#x636E;&#x5165;&#x804C;&#x65E5;&#x671F;&#x5C06;&#x6BCF;&#x4E2A;&#x90E8;&#x95E8;&#x7684;&#x5458;&#x5DE5;&#x5206;&#x6210;3&#x7EC4;
+select 
+  dname,
+  ename,
+  hiredate,
+  salary,
+ntile(3) over(partition by dname order by  hiredate  ) as rn 
+from employee;
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="5.html" class="navigation navigation-prev " aria-label="Previous page: 第五节 控制流函数">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../04/0.html" class="navigation navigation-next " aria-label="Next page: 第四章 MySQL的视图">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第六节 窗口函数","level":"1.4.6","depth":2,"next":{"title":"第四章 MySQL的视图","level":"1.5","depth":1,"path":"04/0.md","ref":"04/0.md","articles":[{"title":"第一节 视图的创建","level":"1.5.1","depth":2,"path":"04/1.md","ref":"04/1.md","articles":[]},{"title":"第二节 修改视图","level":"1.5.2","depth":2,"path":"04/2.md","ref":"04/2.md","articles":[]},{"title":"第三节 更新视图","level":"1.5.3","depth":2,"path":"04/3.md","ref":"04/3.md","articles":[]},{"title":"第四节 重命名和删除视图","level":"1.5.4","depth":2,"path":"04/4.md","ref":"04/4.md","articles":[]}]},"previous":{"title":"第五节 控制流函数","level":"1.4.5","depth":2,"path":"03/5.md","ref":"03/5.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"03/6.md","mtime":"2022-06-08T14:20:22.429Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-08T14:45:11.982Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
